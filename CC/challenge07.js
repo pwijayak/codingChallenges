@@ -6,6 +6,7 @@
 function getStatus(isBusy) {
   var msg = (isBusy ? "busy" : "available");
   // curly bracket must go on same line as return
+  // if the bracket is not on the same line it does not look at the status as a parameter
   return {
     status: msg
   }
